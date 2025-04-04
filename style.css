@@ -7,6 +7,7 @@
   --text-light: #f0f0f0;
   --glow-color: #00e6ff;
   --accent: #ff0080;
+  --trial-color: #ffd700; /* Gold color for the Trial button */
 }
 
 /* Global Styles */
@@ -152,6 +153,23 @@ h1 {
 .download-btn:hover {
   background-color: var(--accent);
   border-color: var(--accent);
+}
+
+/* Trial Button Styles */
+.trial-btn {
+  background-color: var(--trial-color);
+  color: #121212;
+  border-color: var(--trial-color);
+  padding: 8px 16px;
+  font-size: 0.9em;
+  display: block;
+  margin: 15px auto 0 auto;
+  width: fit-content;
+}
+
+.trial-btn:hover {
+  background-color: #ffcc00; /* Lighter gold on hover */
+  border-color: #ffcc00;
 }
 
 /* Modal Styles */
